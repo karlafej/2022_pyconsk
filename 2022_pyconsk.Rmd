@@ -101,11 +101,11 @@ ggplot(data=df, mapping = aes(x=date, y=sum)) +
 ```
 
 ---
-## What makes a succesfull tweet?
+## What makes a successful tweet?
 
 .center[![](./img/think.gif)]
 ---
-## What makes a succesfull tweet?
+## What makes a successful tweet?
 
 .pull-left[
 ![](./img/yesno.jpeg)
