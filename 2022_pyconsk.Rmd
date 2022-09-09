@@ -24,7 +24,7 @@ pre {
 
 # Which came first, the chicken or the egg?
 
-![](./img/chicken.jpeg)
+.center[![](./img/chicken.jpeg)]
 ---
 
 # Once upon a time...
@@ -98,7 +98,7 @@ ggplot(data=df, mapping = aes(x=date, y=sum)) +
 ---
 ## What makes a succesfull tweet?
 
-![](./img/think.gif)
+.center[![](./img/think.gif)]
 ---
 ## What makes a succesfull tweet?
 --
@@ -280,6 +280,7 @@ list(gen)
 --
 
 - `in` is evaluated at declaration time
+
 - conditional clause is evaluated at runtime
 
 ---
@@ -324,6 +325,13 @@ print(list(images)[:2])
 str(Path(__file__).resolve().parent) 
 # Get the directory path of a python script from within itself
 ```
+--
+```{python eval=FALSE, include=TRUE}
+Path('/my/new/directory').mkdir(parents=True, exist_ok=True) 
+# Create a directory including all missing parents
+# Don't raise an exception if the directory already exists
+```
+
 
 
 ---
@@ -378,6 +386,12 @@ df
        'yesno.jpeg']
 
 ---
+## Jupyter notebook + handcalcs
+
+- render Python calculation code automatically in Latex
+
+![](./img/handcalcs.png)
+---
 # Which came first, the chicken or the egg?
 
 --
@@ -395,4 +409,8 @@ sorted(x)
 - [http://bit.ly/pythontip](http://bit.ly/pythontip)
 
 - Just mention [@python_tip](https://twitter.com/python_tip) if you want us to cite or RT you
+
+--
+
+.center[![](./img/thank-you.jpeg)]
 
