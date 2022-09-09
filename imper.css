@@ -1,0 +1,10 @@
+
+
+/* title slide */
+.title-slide {
+  text-shadow: 0 0 1px #333;
+  background-image: url("img/bk.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
